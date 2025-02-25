@@ -18,3 +18,14 @@ body {
 h1 {
     color: #333;
 }
+
+.horizontal-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Use flexbox to arrange items horizontally */
+}
+
+.horizontal-list li {
+  margin-right: 10px; /* Add some space between items */
+}
