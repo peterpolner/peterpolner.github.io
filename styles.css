@@ -19,13 +19,25 @@ h1 {
     color: #333;
 }
 
-.horizontal-list {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0;
+.icon-bar {
+  list-style-type: none;
   margin: 0;
-  display: flex; /* Use flexbox to arrange items horizontally */
+  padding: 0;
+  display: flex;
+  background-color: #333;
+  justify-content: center;
 }
 
-.horizontal-list li {
-  margin-right: 10px; /* Add some space between items */
+.icon-bar li {
+  padding: 10px;
+}
+
+.icon-bar img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.icon-bar img:hover {
+  transform: scale(1.1);
 }
