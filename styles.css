@@ -91,12 +91,23 @@ li a:hover {
   background-color: rgba(27, 28, 29, 0.267);
 }
 
+.icon-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
 .icon-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10px;
 }
 
 .icon-bar a {
