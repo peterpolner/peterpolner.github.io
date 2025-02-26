@@ -19,14 +19,14 @@ h1 {
     color: #333;
 }
 
-/*.icon-bar {
+.icon-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
   background-color: #333;
   justify-content: center;
-}*/
+}
 
 .icon-bar a {
   display: block; /* Make the links appear below each other instead of side-by-side */
@@ -39,6 +39,11 @@ h1 {
   width: 64px; /* Adjust size as needed */
   height: 64px;
   transition: transform 0.3s ease;
+}
+
+.icon-bar img.no-size {
+  width: auto;
+  height: auto;
 }
 
 .icon-bar img:hover {
