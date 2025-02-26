@@ -56,6 +56,11 @@ h1 {
 .navbar .nav-list li a:hover {
     background-color: #111;
 }*/
+.logo {
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}   
 
 ul {
   list-style-type: none;
@@ -83,7 +88,7 @@ li a:hover {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: rgba(27, 28, 29, 0.267);
 }
 
 .icon-bar {
@@ -91,7 +96,6 @@ li a:hover {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #333;
     justify-content: center;
 }
 
