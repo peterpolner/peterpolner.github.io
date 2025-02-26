@@ -36,8 +36,8 @@ h1 {
 }
 
 .icon-bar img {
-  width: 40px; /* Adjust size as needed */
-  height: 40px;
+  width: 64px; /* Adjust size as needed */
+  height: 64px;
   transition: transform 0.3s ease;
 }
 
