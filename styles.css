@@ -50,13 +50,13 @@ h1 {
   background-color: #111;
 }
 
-.logo {
+.navbar .logo {
     width: 100px;
     height: auto;
     font-weight: bold;
 }
 
-.nav-list {
+.navbar .nav-list {
     display: flex;
     list-style-type: none;
     margin: 0;
