@@ -210,7 +210,7 @@ nav ul li a:hover {
         left: 15px;
     }
     .right::before {
-        left: 0%;
+        left: 60px; /* Fix the left position */
     }
 }
 
