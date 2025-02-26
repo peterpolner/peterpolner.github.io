@@ -24,6 +24,23 @@
         <h1>Welcome to My Portfolio Site</h1>
         <p>This is my "e-resumé"</p>
         <br>
+        <div class="slideshow-container">
+            <div class="slideshow">
+                <div class="mySlides fade">
+                    <img src="src/image1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="src/image2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="src/image3.jpg" style="width:100%">
+                </div>
+            </div>
+            <div class="slideshow-text">
+                <h2>Slideshow Title</h2>
+                <p>This is some text next to the slideshow. You can add more details about the images here.</p>
+            </div>
+        </div>
         <div class="icon-sections">
             <div class="icon-section">
                 <p>Professional Sites/Resumés:</p>
@@ -33,6 +50,7 @@
                     <a href="https://github.com/peterpolner"><img src="src/github_dark.png" alt="Github"></a>
                 </div>
             </div>
+            <br>
             <div class="icon-section">
                 <p>Social Media Contact:</p>
                 <div class="icon-bar">
@@ -48,6 +66,23 @@
                 </div>
             </div>
         </div>
+
     </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
 </body>
 </html>
