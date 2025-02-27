@@ -69,6 +69,7 @@ nav ul li a:hover {
     flex: 1;
     margin: 0 10px;
     min-width: 150px; /* Add a minimum width to prevent too small sections */
+    text-align: center;
 }
 
 .icon-bar {
