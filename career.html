@@ -6,6 +6,18 @@
     <title>Peter Polner's Portfolio</title>
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleLanguage(language) {
+            var sections = document.querySelectorAll('.language-section');
+            sections.forEach(function(section) {
+                if (section.classList.contains(language)) {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        }
+    </script>
 </head>
 <body>
     <nav>
@@ -19,35 +31,60 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <!--Make h3 collapsable -->
     <h4 style="text-align: center;">Hire Me!</h4>
     <div class="icon-bar">
         <a href="https://www.linkedin.com/in/peter-polner"><img src="src/icon/Linkedin_blue.png" alt="Linkedin"></a>
         <a href="https://bellevuecollege.joinhandshake.com/profiles/p85wqa"><img src="src/icon/Handshake.png" alt="Handshake"></a>
     </div>    
-        <p style="text-align: center;"><a href="files/resume.pdf">My most recent resume (2025)</a></p>
-    
-    <div class="container">
+    <p style="text-align: center;"><a href="files/resume.pdf">My most recent resume (2025)</a></p>
+
+    <div style="text-align: center;">
+        <button onclick="toggleLanguage('english')">English</button>
+        <button onclick="toggleLanguage('hungarian')">Hungarian</button>
+    </div>
+
+    <div class="container language-section english" style="display: block;">
         <h2 style="text-align: center;">Community Volunteering</h2>
         <h3><ins>Hungarian Scouting</ins></h3>
         <p>Roles:</p>
+        <ul>
+            <li>Scout 2015-2021</li>
+            <li>Patrol Leader 2021-2023</li>
+            <li>Elementary Patrol Leader 2023-Present</li>
+        </ul>
+        <p>Experiences</p>
+        <ul>
+            <li>2021 Hungarian Knowledge Exam Outstanding Score Award</li>
+            <li>2021 Patrol Leader Training Camp</li>
+            <li>2021 Patrol Leader Hungarian Summer Tour & Training</li>
+            <li>2022 Online Ösze-Szövő Obstacle Course Participation</li>
+            <li>2024 Western Region Obstacle Course (2nd place)</li>
+            <li>2024 Jubilee Camp; Fillmore, Ny</li>
+            <li>2024 Diaspora Camp Member</li>
+        </ul>
+    </div>
+
+    <div class="container language-section hungarian" style="display: none;">
+        <h2 style="text-align: center;">Közösségi Önkéntesség</h2>
+        <h3><ins>Magyar Cserkészet</ins></h3>
+        <p>Szerepek:</p>
         <ul>
             <li>Cserkész 2015-2021</li>
             <li>Őrsvezető 2021-2023</li>
             <li>Kis Őrsvezető 2023-Manap</li>
         </ul>
-        <p>Experiences</p>
+        <p>Tapasztalatok</p>
         <ul>
-            <li>2021 Magyarság ismereti Vizsga Nagyon Jó Eredmény dij</li>
-            <li>2021 Örsvezető Vezetőképző tábor</li>
-            <li>2021 Körút particapation</li>
-            <li>2022? Online Ösze-Szövő Akadályverseny particapation</li>
-            <li>2024 Nyugati Part akadály verseny (2nd place)</li>
-            <li>2024 Jubileumi Tábor</li>
-            <li>2024 Diaspora Tábor member</li>
+            <li>2021 Magyarság ismereti Vizsga Nagyon Jó Eredmény díj</li>
+            <li>2021 Őrsvezető Vezetőképző tábor</li>
+            <li>2021 Vezetőképző Magyar Körút részvétel</li>
+            <li>2022 Online Ösze-Szövő Akadályverseny részvétel</li>
+            <li>2024 Nyugati Part akadály verseny (2. hely)</li>
+            <li>2024 Jubileumi Tábor; Fillmore, Ny</li>
+            <li>2024 Diaspora Tábor tag</li>
         </ul>
-
     </div>
+
     <div class="container">
         <h2 style="text-align: center;">Professional Career Competitions</h2>
         <h3>DECA</h3>    
@@ -57,7 +94,6 @@
             <li>2022 Area [] Competition</li>
             <li>2022 State Competition</li>
         </ul>
-
     </div>
 </body>
 </html>
