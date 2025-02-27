@@ -27,6 +27,7 @@ h1 {
     font-weight: bold;
     color: white;
     font-size: larger;
+    text-align: center;
 }   
 
 nav ul {
@@ -98,13 +99,11 @@ nav ul li a:hover {
 }
 
 /*Athletics Page:*/
-/*centers tables*/
-.center {
-    margin-left: auto;
-    margin-right: auto;
-}
+table, th, td {
+    border: 1px solid black;
+  }
 
-* {
+  * {
     box-sizing: border-box;
 }
 
