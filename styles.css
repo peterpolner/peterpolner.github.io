@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+}
+
+.cntr {
     text-align: center;
 }
 
@@ -86,7 +89,7 @@ nav ul li a:hover {
 
 .icon-bar img {
     width: auto; 
-    height: 64px;
+    height: 32px;
     transition: transform 0.3s ease;
 }
 
