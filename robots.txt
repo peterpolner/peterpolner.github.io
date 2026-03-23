@@ -1,0 +1,3 @@
+User-agent: Googlebot-Image
+Disallow: /src/icon/*.png$
+Disallow: /src/icon/*
