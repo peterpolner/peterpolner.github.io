@@ -24,6 +24,27 @@ h1 {
     text-align: center;
 }
 
+.works-description {
+  color: #555;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.works-archive {
+  border-top: 1px solid #ddd;
+}
+
+.works-period {
+  padding: 18px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.works-period h2 {
+  color: #333;
+  font-size: 1.15rem;
+  margin: 0;
+}
+
 .logo {
     font-weight: bold;
     color: white;
