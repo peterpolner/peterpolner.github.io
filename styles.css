@@ -127,6 +127,14 @@ h1 {
   outline-offset: 3px;
 }
 
+.work-card.is-deck .work-cover {
+  aspect-ratio: 16 / 9;
+}
+
+.work-card.is-deck .work-cover img {
+  object-position: top;
+}
+
 .logo {
     font-weight: bold;
     color: white;
