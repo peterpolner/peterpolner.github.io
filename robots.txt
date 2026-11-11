@@ -1,6 +1,8 @@
 User-agent: Googlebot-Image
 Disallow: /src/icon/*.png$
 Disallow: /src/icon/*
+Disallow: /src/works_cover/*
 
 User-agent: *
-Disallow: /pdfs/
+Disallow: /files/works/*
+Disallow: /src/works_cover/*
