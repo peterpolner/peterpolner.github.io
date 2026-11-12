@@ -127,7 +127,7 @@ h1 {
   outline-offset: 3px;
 }
 
-.work-card .is-deck .work-cover {
+.work-card.is-deck .work-cover {
   aspect-ratio: 16 / 9;
 }
 
